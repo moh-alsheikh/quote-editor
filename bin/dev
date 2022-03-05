@@ -8,4 +8,7 @@ fi
 
 export PATH="/usr/local/opt/node@12/bin:$PATH"
 
+
+# /Users/mohammed/Desktop/redis-6.2.6/src/redis-server /Users/mohammed/Desktop/redis-6.2.6/redis.conf
+
 foreman start -f Procfile.dev "$@"
