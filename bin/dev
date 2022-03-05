@@ -6,4 +6,6 @@ then
   gem install foreman
 fi
 
+export PATH="/usr/local/opt/node@12/bin:$PATH"
+
 foreman start -f Procfile.dev "$@"
